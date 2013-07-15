@@ -2,7 +2,7 @@
     <div id="footer-bottom">
         <div class="container">
             <div class="eight columns">Copyright SSBLA
-                2012.</div>
+                2013.</div>
             <ul class="footer-nav">
                 <li>See more at:</li>
                 <li><a href="http://www.flickr.com/groups/SSBLA" target="_new"><i class="icos-flickr"></i></a></li>

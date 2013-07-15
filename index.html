@@ -5,8 +5,13 @@ active_nav: Blog
 ---
 <div class="container">
     <div class="twelve columns blog blog-index">
+        <!-- TODO: is it possible to provide a placeholder for the announcement here
+        without the display layout? I'd like to keep that in announcement layout(same for blockquote)-->
         {% for post in site.categories.announcement %}
-            {{ post.content }}
+            <div class="alert alert-announce">
+                <h4>{{ post.title }}</h4>
+                {{ post.content }}
+            </div>
         {% endfor %}
 
         {% for post in site.categories.blog %}
@@ -14,16 +19,20 @@ active_nav: Blog
                 <div class="wrap">
                     <div class="content">
                         <h2 class="title">
-                            <a href="{{ post.url }}"> {{ post.long_title }}</a>
+                            <a href="{{ post.url }}">{{ post.title }}</a>
                         </h2>
                         <ul class="meta clearfix">
-                            <li><i class="icon-blog"></i> {{ post.date | date: "%b %d, %Y" }}</li>
-                            <li><i class="icon-user"></i> {{ post.author }}</li>
+                            <li><i class="icon-blog"></i>{{ post.date | date: "%b %d, %Y" }}</li>
+                            <li><i class="icon-user"></i>{{ post.author }}</li>
                         </ul>
-                        <div class="media image">
-                            <img src="{{ post.img_path }}" alt="">
-                        </div>
-                        <p>{{ post.summary }}</p>
+                        {% if post.img-path  %}
+                            <div class="media image">
+                                <img src="{{ post.img-path }}" alt="">
+                            </div>
+                        {% endif %}
+                        {% if post.excerpt  %}
+                            <p>{{ post.excerpt }}</p>
+                        {% endif %}
                     </div>
                     <div class="read-more">
                         <a href="{{ post.url }}">Read More</a>
@@ -40,16 +49,11 @@ active_nav: Blog
                         <div class="slider-box">
                             <div class="flexslider">
                                 <ul class="slides">
-                                    <li>
-                                        <blockquote>
-                                            Hot, Nasty, Bad-Ass Speed <small>Eleanor Roosevelt</small>
-                                        </blockquote>
-                                    </li>
-                                    <li>
-                                        <blockquote>
-                                            If you ain't first, you're last. <small>Reese Bobby</small>
-                                        </blockquote>
-                                    </li>
+                                    {% for post in site.categories.blockquote %}
+                                        <li>
+                                            <blockquote>{{post.quote}}<small>{{post.credit}}</small></blockquote>
+                                        </li>
+                                    {% endfor %}
                                 </ul>
                             </div>
                         </div>
@@ -57,11 +61,11 @@ active_nav: Blog
                 </div>
             </div>
             <div class="underline-heading">
-                <h3>Posts</h3>
+                <h3>Recent Posts</h3>
             </div>
             <ul class="arrow-list">
-                {% for post in site.categories.race_results %}
-                    <li><a href="{{ post.url }}">{{ post.short_title }}</a></li>
+                {% for post in site.categories.blog %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>
         </section>
