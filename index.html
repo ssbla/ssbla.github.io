@@ -25,13 +25,13 @@ active_nav: Blog
                             <li><i class="icon-blog"></i>{{ post.date | date: "%b %d, %Y" }}</li>
                             <li><i class="icon-user"></i>{{ post.author }}</li>
                         </ul>
+                        {% if post.excerpt  %}
+                            <p>{{ post.excerpt }}</p>
+                        {% endif %}
                         {% if post.img-path  %}
                             <div class="media image">
                                 <img src="{{ post.img-path }}" alt="">
                             </div>
-                        {% endif %}
-                        {% if post.excerpt  %}
-                            <p>{{ post.excerpt }}</p>
                         {% endif %}
                     </div>
                     <div class="read-more">
@@ -60,6 +60,14 @@ active_nav: Blog
                     </div>
                 </div>
             </div>
+            <div class="underline-heading">
+                <h3>Race Results</h3>
+            </div>
+            <ul class="arrow-list">
+                {% for post in site.categories.race_results %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
             <div class="underline-heading">
                 <h3>Recent Posts</h3>
             </div>
