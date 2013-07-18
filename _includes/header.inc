@@ -13,6 +13,7 @@
                 <nav id="main-nav">
                     <ul>
                         <li {% if page.active_nav == 'Blog' %}class="active" {% endif %}><a href="/index.html">Blog</a></li>
+                        <li {% if page.active_nav == 'Results' %}class="active" {% endif %}><a href="/results">Race Results</a></li>
                     </ul>
                 </nav>
             </div>
