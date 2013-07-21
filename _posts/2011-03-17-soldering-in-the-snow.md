@@ -1,6 +1,6 @@
 ---
 layout: basic-post
-categories: blog
+categories: blog tech
 author: Mario Russo
 title: Soldering in the Snow
 img-path: http://farm6.static.flickr.com/5291/5529559576_f0eff9140f.jpg

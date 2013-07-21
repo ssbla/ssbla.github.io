@@ -5,16 +5,12 @@ active_nav: Blog
 ---
 <div class="container">
     <div class="twelve columns blog blog-index">
-        <!-- TODO: is it possible to provide a placeholder for the announcement here
-        without the display layout? I'd like to keep that in announcement layout(same for blockquote)-->
-        {% for post in site.categories.announcement %}
-            <div class="alert alert-announce">
-                <h4>{{ post.title }}</h4>
-                {{ post.content }}
-            </div>
-        {% endfor %}
+        <div class="alert alert-announce">
+            <h4>Next Race: 2013 Mario Cup</h4>
+            New Years Eve 2013 @ The Double-B ranch.
+        </div>
 
-        {% for post in site.categories.blog %}
+        {% for post in paginator.posts %}
             <article class="post">
                 <div class="wrap">
                     <div class="content">
@@ -40,6 +36,29 @@ active_nav: Blog
                 </div>
             </article>
         {% endfor %}
+        
+        <!-- Pagination links -->
+        <div id="post-pagination" class="pagination">
+          <ul class="pages">
+            <li class="page">
+              {% if paginator.page == 1 %}
+                <span class="current-page">1</span>
+              {% else %}
+                <a href="/">1</a>
+              {% endif %}
+            </li>
+
+            {% for count in (2..paginator.total_pages) %}
+              <li class="page">
+                {% if count == paginator.page %}
+                  <span class="current-page">{{ count }}</span>
+                {% else %}
+                  <a href="/page{{ count }}">{{ count }}</a>
+                {% endif %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
     </div>
     <aside class="four columns sidebar">
         <section class="sidebar-section">
@@ -49,11 +68,14 @@ active_nav: Blog
                         <div class="slider-box">
                             <div class="flexslider">
                                 <ul class="slides">
-                                    {% for post in site.categories.blockquote %}
-                                        <li>
-                                            <blockquote>{{post.quote}}<small>{{post.credit}}</small></blockquote>
-                                        </li>
-                                    {% endfor %}
+                                    <li>
+                                        <blockquote>Hot, Nasty, Bad-Ass Speed<small>Eleanor Roosevelt</small>
+                                        </blockquote>
+                                    </li>
+                                    <li>
+                                        <blockquote>If you ain't first, you're last.<small>Reese Bobby</small>
+                                        </blockquote>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -64,7 +86,7 @@ active_nav: Blog
                 <h3>Recent Posts</h3>
             </div>
             <ul class="arrow-list">
-                {% for post in site.categories.blog %}
+                {% for post in paginator.posts %}
                     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
                 {% endfor %}
             </ul>

@@ -13,7 +13,8 @@
                 <nav id="main-nav">
                     <ul>
                         <li {% if page.active_nav == 'Blog' %}class="active" {% endif %}><a href="/index.html">Blog</a></li>
-                        <li {% if page.active_nav == 'Results' %}class="active" {% endif %}><a href="/results">Race Results</a></li>
+                        <li {% if page.active_nav == 'Results' %}class="active" {% endif %}><a href="/results">Results</a></li>
+                        <li {% if page.active_nav == 'Tech' %}class="active" {% endif %}><a href="/technology">Technology</a></li>
                     </ul>
                 </nav>
             </div>

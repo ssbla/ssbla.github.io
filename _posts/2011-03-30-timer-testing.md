@@ -1,6 +1,6 @@
 ---
 layout: basic-post
-categories: blog
+categories: blog tech
 title: Timer testing
 ---
 <p>Testing out the start sequence</p>

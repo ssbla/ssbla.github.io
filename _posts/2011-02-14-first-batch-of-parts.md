@@ -1,6 +1,6 @@
 ---
 layout: basic-post
-categories: blog
+categories: blog tech
 author: Mario Russo
 title: First batch of parts
 ---

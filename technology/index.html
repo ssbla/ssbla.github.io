@@ -1,0 +1,65 @@
+---
+layout: default
+title: Backyard Luge
+active_nav: Tech
+---
+<div class="container">
+    <div class="twelve columns blog blog-index">
+
+        {% for post in site.categories.tech %}
+            <article class="post">
+                <div class="wrap">
+                    <div class="content">
+                        <h2 class="title">
+                            <a href="{{ post.url }}">{{ post.title }}</a>
+                        </h2>
+                        <ul class="meta clearfix">
+                            <li><i class="icon-blog"></i>{{ post.date | date: "%b %d, %Y" }}</li>
+                            <li><i class="icon-user"></i>{{ post.author }}</li>
+                        </ul>
+                        {% if post.excerpt  %}
+                            <p>{{ post.excerpt }}</p>
+                        {% endif %}
+                        {% if post.img-path  %}
+                            <div class="media image">
+                                <img src="{{ post.img-path }}" alt="">
+                            </div>
+                        {% endif %}
+                    </div>
+                    <div class="read-more">
+                        <a href="{{ post.url }}">Read More</a>
+                    </div>
+                </div>
+            </article>
+        {% endfor %}
+    </div>
+    <aside class="four columns sidebar">
+        <section class="sidebar-section">
+            <div class="portfolio">
+                <div class="">
+                    <div class="four columns">
+                        <div class="slider-box">
+                            <div class="flexslider">
+                                <ul class="slides">
+                                    {% for post in site.categories.blockquote %}
+                                        <li>
+                                            <blockquote>{{post.quote}}<small>{{post.credit}}</small></blockquote>
+                                        </li>
+                                    {% endfor %}
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="underline-heading">
+                <h3>Related Posts</h3>
+            </div>
+            <ul class="arrow-list">
+                {% for post in site.categories.tech %}
+                    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </section>
+    </aside>
+</div>
