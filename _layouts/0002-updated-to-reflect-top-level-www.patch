@@ -1,0 +1,19 @@
+From 5a3d78336243454e340f1a13d1c3b752b199139a Mon Sep 17 00:00:00 2001
+From: dotMR <mail.mr@gmail.com>
+Date: Mon, 29 Jul 2013 11:38:04 +0200
+Subject: [PATCH 2/5] updated to reflect top-level (www)
+
+---
+ CNAME | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/CNAME b/CNAME
+index 1dfcc34..205696c 100644
+--- a/CNAME
++++ b/CNAME
+@@ -1 +1 @@
+-ssbla.org
++www.ssbla.org
+-- 
+1.7.12.4 (Apple Git-37)
+
