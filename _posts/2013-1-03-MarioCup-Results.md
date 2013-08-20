@@ -51,7 +51,7 @@ podium:
             <h2>Soundtrack</h2>
         </div>
         <p>New for the 2012 race was the addition of
-            music. 'Eye of the Tiger' was the offical
+            music. 'Eye of the Tiger' was the official
             race theme and every racer got to pick a
             walk-out song. Take a listen!</p>
         <iframe
@@ -60,6 +60,17 @@ podium:
             allowtransparency="true"></iframe>
     </div>
 </div>
+
+| Racer     | Run 1 | Run 2 | Run 3 | Avg Time  |
+|:----------|:------|:------|:------|:----------|
+| Meggie    | 46.44 | 40.71 | 35.51 | 40.89     |
+| Meredith  | 46.44 | 40.71 | 35.51 | 40.89     |
+| Patrick   | 46.44 | 40.71 | 35.51 | 40.89     |
+| Alex      | 46.44 | 40.71 | 35.51 | 40.89     |
+| Mario     | 46.44 | 40.71 | 35.51 | 40.89     |
+| Ryan      | 46.44 | 40.71 | 35.51 | 40.89     |
+| Meg       | 46.44 | 40.71 | 35.51 | 40.89     |
+
 
 <div class="row">
     <div class="two-thirds column">
