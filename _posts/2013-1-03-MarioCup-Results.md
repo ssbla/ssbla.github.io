@@ -3,7 +3,7 @@ layout: results
 categories: race_results blog
 author: Mario Russo
 title: 2012 Mario Cup Results
-img-path: https://s3.amazonaws.com/ssbla-web-root/deck-raceday.jpg
+img-path: /assets/images/deck-raceday.jpg
 
 series: Winter Series
 race-date: New Year's Eve 2012
@@ -14,13 +14,13 @@ excerpt: Another New Year's Eve event in the books for the SSBLA. The return of 
 intro-text: Another New Year's Eve event in the books for the SSBLA. The return of the curved course was greatly anticipated by those racers left cowering after last year's lightning fast straight course. Despite conflicts for a few regular racers, we fielded 7 participants for this year's event.
 additional-text: TODO - More Content!
 slideshow-images:
-- image-path: https://s3.amazonaws.com/ssbla-web-root/finish-mic.jpg
+- image-path: /assets/images/finish_line/finish-mic.jpg
   alt: Ryan
-- image-path: https://s3.amazonaws.com/ssbla-web-root/finish-al.jpg
+- image-path: /assets/images/finish_line/finish-al.jpg
   alt: Al
-- image-path: https://s3.amazonaws.com/ssbla-web-root/finish-mere.jpg
+- image-path: /assets/images/finish_line/finish-mere.jpg
   alt: Mere
-- image-path: https://s3.amazonaws.com/ssbla-web-root/finish-megs.jpg
+- image-path: /assets/images/finish_line/finish-megs.jpg
   alt: Megs
 courses:
 - title: Straight Course
@@ -36,13 +36,13 @@ courses:
       expected: 5
 podium:
 - racer: Meg Elzea
-  image-path: https://s3.amazonaws.com/ssbla-web-root/meg.jpg
+  image-path: /assets/images/racers/meg.jpg
   title: Fastest F*n Female (FFF)
 - racer: Alex Shortle
-  image-path: https://s3.amazonaws.com/ssbla-web-root/alex.jpg
+  image-path: /assets/images/racers/alex.jpg
   title: Best Average Lap
 - racer: Mario Russo
-  image-path: https://s3.amazonaws.com/ssbla-web-root/mario.jpg
+  image-path: /assets/images/racers/mario.jpg
   title: Fastest Lap
 ---
 <div class="row">

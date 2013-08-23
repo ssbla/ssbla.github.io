@@ -3,7 +3,7 @@ layout: results
 categories: race_results blog
 author: Mario Russo
 title: 2012 Double-B Cup Results
-img-path: http://media.tumblr.com/tumblr_mb3cfhIIPZ1qfldsg.jpg
+img-path: /assets/images/double-b-podium-reception.jpg
 
 series: Summer Series
 race-date: June 16, 2012
@@ -12,7 +12,7 @@ num-racers: 19
 excerpt: To the enjoyment of all fans and competitors, the Double B-Cup proved to be another fast, challenging, and fun race in our series. 19 brave racers took to the track @ FastTimes Indoor Karting on the morning of June 16, 2012. A few racers were handicapped by a little too much to drink the night before, but everyone left their best on the track. Racers were permitted 2 or 3 8-minute runs to lay down the fastest lap time of the day.
 intro-text: Race Fans, the conclusion of the summer race season gives way to cooler temps, the first dusting of snow, and the beginning of fall training. We all know this year’s Winter Challenge, the Mario Cup, is drawing near. But before we walk too far down that path, let us take a moment to celebrate the first annual running of the Spring Series, the Double B-Cup! <p>To the enjoyment of all fans and competitors, the Double B-Cup proved to be another fast, challenging, and fun race in our series. 19 brave racers took to the track @ FastTimes Indoor Karting on the morning of June 16, 2012. A few racers were handicapped by a little too much to drink the night before, but everyone left their best on the track. Racers were permitted 2 or 3 8-minute runs to lay down the fastest lap time of the day.</p>
 slideshow-images:
-- image-path: http://media.tumblr.com/tumblr_mb3cfhIIPZ1qfldsg.jpg
+- image-path: /assets/images/double-b-podium-reception.jpg
   alt: Podium
 courses:
   - title: Fast Times Indoor
