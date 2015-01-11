@@ -12,7 +12,7 @@ num-racers: 7
 
 excerpt: Another New Year's Eve event in the books for the SSBLA. The return of the curved course was greatly anticipated by those racers left cowering after last year's superfast straight course. Despite conflicts for a few regular racers, we fielded 7 participants for this year's event.
 intro-text: Another New Year's Eve event in the books for the SSBLA. The return of the curved course was greatly anticipated by those racers left cowering after last year's lightning fast straight course. Despite conflicts for a few regular racers, we fielded 7 participants for this year's event.
-additional-text: TODO - More Content!
+
 slideshow-images:
 - image-path: /assets/images/finish_line/finish-mic.jpg
   alt: Ryan
@@ -22,8 +22,9 @@ slideshow-images:
   alt: Mere
 - image-path: /assets/images/finish_line/finish-megs.jpg
   alt: Megs
+
 courses:
-- title: Straight Course
+- title: Curved Course
   stats:
     - metric-name: Turns
       actual: 3
@@ -34,6 +35,7 @@ courses:
     - metric-name: Speed
       actual: 2
       expected: 5
+
 podium:
 - racer: Meg Elzea
   image-path: /assets/images/racers/meg.jpg
@@ -60,17 +62,6 @@ podium:
             allowtransparency="true"></iframe>
     </div>
 </div>
-
-| Racer     | Run 1 | Run 2 | Run 3 | Avg Time  |
-|:----------|:------|:------|:------|:----------|
-| Meggie    | 46.44 | 40.71 | 35.51 | 40.89     |
-| Meredith  | 46.44 | 40.71 | 35.51 | 40.89     |
-| Patrick   | 46.44 | 40.71 | 35.51 | 40.89     |
-| Alex      | 46.44 | 40.71 | 35.51 | 40.89     |
-| Mario     | 46.44 | 40.71 | 35.51 | 40.89     |
-| Ryan      | 46.44 | 40.71 | 35.51 | 40.89     |
-| Meg       | 46.44 | 40.71 | 35.51 | 40.89     |
-
 
 <div class="row">
     <div class="two-thirds column">

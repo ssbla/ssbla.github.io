@@ -28,13 +28,13 @@ courses:
         expected: 5
 podium:
 - racer: Alex Shortle
-  image-path: 
+  image-path: /assets/images/racers/stock-racer.jpg
   title: Fastest Lap!
 - racer: Mario Russo
-  image-path: 
+  image-path: /assets/images/racers/stock-racer.jpg
   title: Second Place
 - racer: Steve Kendrick
-  image-path: 
+  image-path: /assets/images/racers/stock-racer.jpg
   title: Third Place
 ---
 <div class="row">
