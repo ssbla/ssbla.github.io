@@ -17,13 +17,13 @@ intro-text: The 2014 Mario Cup has come and gone but will not be soon forgotten.
 additional-text: A big congrats goes out to Meggie Shortle, a first time winner and our 2014 Double Crown Champion, who set the tone for the entire event by laying down a scorching qualifying time her first run on the track. She followed suit on her first run of the finals and laid claim to the overall Championship honors as well as the FFF award. A notable mention goes out to the 'awalys a bridesmaid but never a bride' Mario Russo, who posted the fastest qualifying time but was unable to repeat the performance during finals and thus unable to land his first Mario Cup victory. Despite disappointing times in competition (only to him), perennial favorite Alex Shortle recorded the 2014 Course Record with a time of 14.43 seconds in after-hours racing.
 
 slideshow-images:
-- image-path: /assets/images/2014/alex-racing.JPG
+- image-path: /assets/images/2014/alex-racing.jpg
   alt: Alex racing
-- image-path: /assets/images/2014/mario-racing.JPG
+- image-path: /assets/images/2014/mario-racing.jpg
   alt: Mario racing
-- image-path: /assets/images/2014/alex-racing-snow.JPG
+- image-path: /assets/images/2014/alex-racing-snow.jpg
   alt: Alex racing
-- image-path: /assets/images/2014/FL-marge.JPG
+- image-path: /assets/images/2014/FL-marge.jpg
   alt: Megs
 - image-path: /assets/images/2014/FL-al.JPG
   alt: Alex
@@ -41,7 +41,7 @@ slideshow-images:
   alt: Random Passerby
 - image-path: /assets/images/2014/FL-rando-girl.JPG
   alt: Random Passerby
-- image-path: /assets/images/2014/megs-award-mario.JPG
+- image-path: /assets/images/2014/megs-award-mario.jpg
   alt: Our 2014 Champion
 
 courses:
