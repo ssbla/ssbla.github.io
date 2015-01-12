@@ -14,7 +14,7 @@ excerpt: The 2014 Mario Cup has come and gone but will not be soon forgotten. De
 
 intro-text: The 2014 Mario Cup has come and gone but will not be soon forgotten. Despite the small turnout, a big hats-off to the entire SSBLA staff for putting on what will go down as the best Mario Cup to-date. A near-perfectly laid out track combined cooperative weather over race week produced a consistent, competitive, and most importantly fun event. The crew gathered some fantastic event footage using the with the introduction of the overhead track camera. Following the official Mario Cup compeition, the SSBLA team rolled out finish-line speed detection and opened up the course for official Speed Trials, recording finishing speeds in excess of 25 mph.
 
-additional-text: A big congrats goes out to Meggie Shortle, a first time winner and our 2014 Double Crown Champion, who set the tone for the entire event by laying down a scorching qualifying time her first run on the track. She followed suit on her first run of the finals and laid claim to the overall Championship honors as well as the FFF award. A notable mention goes out to the 'awalys a bridesmaid but never a bride' Mario Russo, who posted the fastest qualifying time but was unable to repeat the performance during finals and thus unable to land his first Mario Cup victory. Despite disappointing times in competition (only to him), perennial favorite Alex Shortle recorded the 2014 Course Record with a time of 14.43 seconds in after-hours racing.
+additional-text: A big congrats goes out to Meggie Shortle, a first time winner and our 2014 Double Crown Champion, who set the tone for the entire event by laying down a scorching qualifying time her first run on the track. She followed suit on her first run of the finals and laid claim to the overall Championship honors as well as the FFF award. A notable mention goes out to the 'always a bridesmaid but never a bride' Mario Russo, who posted the fastest qualifying time but was unable to repeat the performance during finals and thus unable to land his first Mario Cup victory. Despite disappointing times in competition (only to him), perennial favorite Alex Shortle recorded the 2014 Course Record with a time of 14.43 seconds in after-hours racing.
 
 slideshow-images:
 - image-path: /assets/images/2014/alex-racing.jpg
@@ -127,7 +127,7 @@ podium:
                     <td>17.87</td>
                     <td>19.22</td>
                     <td>17.87</td>
-                    <td>18.13 *</td>
+                    <td>17.87</td>
                 </tr>
                 <tr>
                     <td>Elise</td>
