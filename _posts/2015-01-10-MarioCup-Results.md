@@ -23,7 +23,7 @@ slideshow-images:
   alt: Mario racing
 - image-path: /assets/images/2014/alex-racing-snow.jpg
   alt: Alex racing
-- image-path: /assets/images/2014/FL-marge.JPG
+- image-path: /assets/images/2014/FL-marge.jpg
   alt: Megs
 - image-path: /assets/images/2014/FL-al.JPG
   alt: Alex
