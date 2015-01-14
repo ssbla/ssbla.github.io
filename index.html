@@ -21,18 +21,22 @@ active_nav: Blog
                             <li><i class="icon-blog"></i>{{ post.date | date: "%b %d, %Y" }}</li>
                             <li><i class="icon-user"></i>{{ post.author }}</li>
                         </ul>
-                        {% if post.excerpt  %}
-                            <p>{{ post.excerpt }}</p>
-                        {% endif %}
+
+                        <p>{{ post.excerpt }}</p>
+
                         {% if post.img-path  %}
                             <div class="media image">
                                 <img src="{{ post.img-path }}" alt="">
                             </div>
                         {% endif %}
                     </div>
-                    <div class="read-more">
-                        <a href="{{ post.url }}">Read More</a>
-                    </div>
+
+                    {% if post.content.size >  post.excerpt.size %}
+                        <div class="read-more">
+                            <a href="{{ post.url }}">Read More</a>
+                        </div>
+                    {% endif %}
+
                 </div>
             </article>
         {% endfor %}

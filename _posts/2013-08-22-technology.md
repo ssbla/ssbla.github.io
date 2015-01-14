@@ -7,6 +7,8 @@ img-path: /assets/images/xmas-tree-track.jpg
 ---
 We've been continually refining our event technology since the 2010 Inaugural Mario Cup. What began with a stop watch has developed into an electronic timing system complete with drag-inspired start lights.
 
+<!-- more -->
+
 Here was our prototype:
 ![v1](/assets/images/timer-unboxed.jpg)
 

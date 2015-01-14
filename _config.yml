@@ -1,6 +1,3 @@
-auto: true
-markdown: redcarpet
-redcarpet:
-  extensions: ["tables"]
 permalink: /:year/:month/:day/:title
 paginate: 10
+excerpt_separator: <!-- more -->
