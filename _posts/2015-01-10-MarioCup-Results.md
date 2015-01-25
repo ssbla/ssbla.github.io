@@ -10,7 +10,7 @@ race-date: New Year's Day 2015
 race-location: Steamboat Springs, CO
 num-racers: 7
 
-excerpt: The 2014 Mario Cup has come and gone but will not be soon forgotten. Despite the small turnout, a big hats-off to the entire SSBLA staff for putting on what will go down as the best Mario Cup to-date. A near-perfectly laid out track combined cooperative weather over race week produced a consistent, competitive, and most importantly fun event.
+excerpt: The 2014 Mario Cup has come and gone but will not be soon forgotten. Despite the small turnout, a big hats-off to the entire SSBLA staff for putting on what will go down as the best Mario Cup to-date. A near-perfectly laid out track combined with cooperative weather over race week produced a consistent, competitive, and most importantly fun event.
 
 intro-text: The 2014 Mario Cup has come and gone but will not be soon forgotten. Despite the small turnout, a big hats-off to the entire SSBLA staff for putting on what will go down as the best Mario Cup to-date. A near-perfectly laid out track combined cooperative weather over race week produced a consistent, competitive, and most importantly fun event. The crew gathered some fantastic event footage using the with the introduction of the overhead track camera. Following the official Mario Cup compeition, the SSBLA team rolled out finish-line speed detection and opened up the course for official Speed Trials, recording finishing speeds in excess of 25 mph.
 
