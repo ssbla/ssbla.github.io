@@ -40,7 +40,7 @@ permalink: /tech/
 		<div class="underline-heading">
 			<h2>Version 2</h2>
 		</div>
-		<p>Now we're getting somewhere. A _slightly_ more ruggedized packaging for start and finish line devices,  introduction of a menu system via potentiometer and push button next to the LCD. V2 also marked the introduction of the drag-style start lights. Wireless data transmission between boxes was handled via xBee radio (with quite mixed results in the cold weather).</p>
+		<p>Now we're getting somewhere. A slightly more ruggedized packaging for start and finish line devices,  introduction of a menu system via potentiometer and push button next to the LCD. V2 also marked the introduction of the drag-style start lights. Wireless data transmission between boxes was handled via xBee radio (with quite mixed results in the cold weather).</p>
 		<img src='/assets/images/timer-v2-all.jpg'/>
 	</div>
 </div>
@@ -61,7 +61,7 @@ permalink: /tech/
 			<h2>Current Version</h2>
 		</div>
 		<p>The current version looks quite similar to v3, although unfortunately the LCD (as well as one red light on the xmas tree) died in transit. We've replaced the display with a much more cold-weather-friendly LED segment display. Not as fancy, but it works reliably in the cold.</p>
-		<p>(No time for photos of the timer. We were racing the entire time!</p>
+		<p>(No time this season for photos of the timer. It worked flawlessly and we raced the entire time!)</p>
 	</div>
 </div>
 
@@ -70,7 +70,7 @@ permalink: /tech/
 		<div class="underline-heading">
 			<h2>Upcoming Versions</h2>
 		</div>
-		<p>We're currently reconfiguring the time with an eye for durability. We've reached a point in development where the system functions reliably, and it is easy enough to use that we (the makers) no longer need to run it. We can focus on race activities and let other people run the system. Woo woo!</p>
+		<p>We're currently reconfiguring the timer with an eye for durability. We've reached a point in development where the system functions reliably, and it is easy enough to use that we (the makers) no longer need to run it. We can focus on race activities and let other people run the system. Woo woo!</p>
 
 		Improvements for the next version:
 		<ul>
@@ -89,7 +89,7 @@ permalink: /tech/
 		<div class="underline-heading">
 			<h2>Data Transmission</h2>
 		</div>
-		<p>While we started down the path of wireless transmission, it was a bowl of hurt. We encountered pretty severe packet loss in the extreme cold (not to mention the _related_ battery issues on the remote station), so for now we've resorted back to the hardwiring. A 500' spool allows us to make the track as long as we want.</p>
+		<p>While we started down the path of wireless transmission, it was a bowl of hurt. We encountered pretty severe packet loss in the extreme cold (not to mention the related battery issues on the remote station), so for now we've resorted back to the hardwiring. A 500' spool allows us to make the track as long as we want.</p>
 		<img src='/assets/images/sensor-wires.jpg'/>
 	</div>
 </div>
@@ -119,7 +119,7 @@ permalink: /tech/
 		<div class="underline-heading">
 			<h2>Footage</h2>
 		</div>
-		<p>There is only one way to feel the rush of backyard luge racing, and that is actually showing up and braving the cold. But for those that can't make the trip, we do our best to provide the best second-hard experience possible.</p>
+		<p>There is only one way to feel the rush of backyard luge racing, and that is actually showing up and braving the cold. But for those that can't make the trip, we do our best to provide the best second-hand experience possible.</p>
 		<p>We've tried several different methods of event photography so far, but we're excited to be developing our own overheard line-camera system for use in future SSBLA events</p>
 
 		<a href="/2014-highlight-reel">Here's a preview</a> of the footage we captured in 2014 using our prototype.
