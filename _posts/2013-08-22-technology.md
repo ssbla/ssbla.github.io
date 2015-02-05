@@ -4,28 +4,124 @@ categories: tech
 author: Mario Russo
 title: Technology
 img-path: /assets/images/xmas-tree-track.jpg
+permalink: /tech/
 ---
-We've been continually refining our event technology since the 2010 Inaugural Mario Cup. What began with a stop watch has developed into an electronic timing system complete with drag-inspired start lights.
+
+<div class="row">
+	<div class="full column">
+		<p>We've been continually refining our event technology since the 2010 Inaugural Mario Cup. What began with a stop watch has developed into an electronic timing system complete with drag-inspired start lights.</p>
+	</div>
+</div>
 
 <!-- more -->
 
-Here was our prototype:
-![v1](/assets/images/timer-unboxed.jpg)
+<div class="row">
+	<div class="two-thirds column">
+		<div class="underline-heading">
+			<h2>Prototype</h2>
+		</div>
+		<p>The initial concept for our system</p>
+		<img src='/assets/images/timer-unboxed.jpg'/>
+	</div>
+</div>
 
-The first iteration of the timing system. Single button start/stop.
-![v1](/assets/images/timer-v1.jpg)
+<div class="row">
+	<div class="two-thirds column">
+		<div class="underline-heading">
+			<h2>Version 1</h2>
+		</div>
+		<p>First attempt at packaging and testing. Single button start/stop.</p>
+		<img src='/assets/images/timer-v1.jpg'/>
+	</div>
+</div>
 
-Slightly more ruggedized packaging for start and finish line. Also introduced a pot to allow menu selection on the LCD. V2 also marked the introduction of the drag-style start lights.
-![v2](/assets/images/timer-v2-all.jpg)
+<div class="row">
+	<div class="two-thirds column">
+		<div class="underline-heading">
+			<h2>Version 2</h2>
+		</div>
+		<p>Now we're getting somewhere. A _slightly_ more ruggedized packaging for start and finish line devices,  introduction of a menu system via potentiometer and push button next to the LCD. V2 also marked the introduction of the drag-style start lights. Wireless data transmission between boxes was handled via xBee radio (with quite mixed results in the cold weather).</p>
+		<img src='/assets/images/timer-v2-all.jpg'/>
+	</div>
+</div>
 
-The current implementation using an ammo dry-box to house the electronics. No finish line box anymore - everything is handled at the start box. With this version we've introduced another sensor for tracking speed at the finish line along with track time. We've also added finish-line sensor calibration to accommodate changes in lighting conditions over the course of the race. This is a _huge_ improvement over past versions.
-![v3](/assets/images/timer-v3-detail.jpg)
+<div class="row">
+	<div class="two-thirds column">
+		<div class="underline-heading">
+			<h2>Version 3</h2>
+		</div>
+		<p>This implementation moved the entire system into an ammunition dry box for safe keeping. No separate controller at the finish line anymore - everything is handled from the main box. In v3 we added an additional trap sensor to monitor racer speed through the finish line. Speaker wire terminals replaced the fragile DIN connectors of the past version. To handle changes in ambient light (and allow night racing!), we added potentiomters to calibrate the finish line photo sensors. This is a _huge_ improvement over past versions.</p>
+		<img src='/assets/images/timer-v3-detail.jpg'/>
+	</div>
+</div>
 
-In the past we've had issues with wireless data transmission in the extreme cold (not to mention batteries), so for now we've resorted back to the spool. 500' allows us to make the track as long as we want.
-![v3](/assets/images/sensor-wires.jpg)
+<div class="row">
+	<div class="two-thirds column">
+		<div class="underline-heading">
+			<h2>Current Version</h2>
+		</div>
+		<p>The current version looks quite similar to v3, although unfortunately the LCD (as well as one red light on the xmas tree) died in transit. We've replaced the display with a much more cold-weather-friendly LED segment display. Not as fancy, but it works reliably in the cold.</p>
+		<p>(No time for photos of the timer. We were racing the entire time!</p>
+	</div>
+</div>
 
-The finish line is the business end of the track. We've played around with a number of different sensors, but in the end a simple photo sensor works great. Not elegant, but we end up destroying a sensor for each race. They are cheap and easy to fabricate, so we keep a couple on hand ready to go.
-![Sensor buried in the track](/assets/images/sensor-detail.jpg)
+<div class="row">
+	<div class="two-thirds column">
+		<div class="underline-heading">
+			<h2>Upcoming Versions</h2>
+		</div>
+		<p>We're currently reconfiguring the time with an eye for durability. We've reached a point in development where the system functions reliably, and it is easy enough to use that we (the makers) no longer need to run it. We can focus on race activities and let other people run the system. Woo woo!</p>
 
-IF we're racing at dusk / night we illuminate the area.
-![Night racing setup](/assets/images/sensor-install.jpg)
+		Improvements for the next version:
+		<ul>
+			<li>Replace speaker-wire terminals with more solid connections</li>
+			<li>Laser-cut new top to fit updated components</li>
+			<li>Wire up dual voltage meters for calibrating both finish line sensors simulatenously</li>
+			<li>Expose the race data in some manner for external consumption</li>
+			<li>Revisit wireless transmission???</li>
+		</ul>
+		Of course, you can always track our progress <a href="https://github.com/dotMR/LugeRacerTimer/issues">here</a>.
+	</div>
+</div>
+
+<div class="row">
+	<div class="two-thirds column">
+		<div class="underline-heading">
+			<h2>Data Transmission</h2>
+		</div>
+		<p>While we started down the path of wireless transmission, it was a bowl of hurt. We encountered pretty severe packet loss in the extreme cold (not to mention the _related_ battery issues on the remote station), so for now we've resorted back to the hardwiring. A 500' spool allows us to make the track as long as we want.</p>
+		<img src='/assets/images/sensor-wires.jpg'/>
+	</div>
+</div>
+
+<div class="row">
+	<div class="two-thirds column">
+		<div class="underline-heading">
+			<h2>Finish Line Sensors</h2>
+		</div>
+		<p>The finish line is the business end of the track. We've played around with a number of different sensors, but in the end a simple photo sensor works great. Not elegant, but we end up destroying a sensor for each race. They are cheap and easy to fabricate, so we keep a couple on hand ready to go. Pictured below is an earlier version buried in the track. With the addition of a young racer to the family, we've migrated the sensor housings to glass baby food jars, which are far more durable than the previous plastic version.</p>
+		<img src='/assets/images/sensor-detail.jpg'/>
+	</div>
+</div>
+
+<div class="row">
+	<div class="two-thirds column">
+		<div class="underline-heading">
+			<h2>Night Racing</h2>
+		</div>
+		<p>If we're racing after dusk we illuminate the track.</p>
+		<img src='/assets/images/sensor-install.jpg'/>
+	</div>
+</div>
+
+<div class="row">
+	<div class="two-thirds column">
+		<div class="underline-heading">
+			<h2>Footage</h2>
+		</div>
+		<p>There is only one way to feel the rush of backyard luge racing, and that is actually showing up and braving the cold. But for those that can't make the trip, we do our best to provide the best second-hard experience possible.</p>
+		<p>We've tried several different methods of event photography so far, but we're excited to be developing our own overheard line-camera system for use in future SSBLA events</p>
+
+		<a href="/2014-highlight-reel">Here's a preview</a> of the footage we captured in 2014 using our prototype.
+	</div>
+</div>
