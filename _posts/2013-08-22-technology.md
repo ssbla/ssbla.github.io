@@ -61,7 +61,7 @@ permalink: /tech/
 			<h2>Current Version</h2>
 		</div>
 		<p>The current version looks quite similar to v3, although unfortunately the LCD (as well as one red light on the starting light "Christmas tree") died in transit. We've replaced the display with a much more cold-weather-friendly LED segment display. Not as fancy, but it works reliably in the cold.</p>
-		<p>(No time this season for photos of the timer. It worked flawlessly and we raced the entire time!)</p>
+		<img src='/assets/images/2014-timer-face.jpg'/>
 	</div>
 </div>
 
