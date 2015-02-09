@@ -9,7 +9,10 @@ permalink: /tech/
 
 <div class="row">
 	<div class="full column">
+		<p>Here at the SSBLA we take our racing seriously. We. Go. Fast.</p>
 		<p>We've been continually refining our event technology since the 2010 Inaugural Mario Cup. What began with a stop watch has developed into an electronic timing system complete with drag-racing inspired start lights.</p>
+		<p>We encourage all racers to follow our development progress <a href="https://github.com/dotMR/LugeRacerTimer/issues">here</a>
+		</p>
 	</div>
 </div>
 
@@ -80,7 +83,6 @@ permalink: /tech/
 			<li>Expose the race data in some manner for external consumption</li>
 			<li>Revisit wireless transmission???</li>
 		</ul>
-		Of course, you can always track our progress <a href="https://github.com/dotMR/LugeRacerTimer/issues">here</a>.
 	</div>
 </div>
 
