@@ -11,7 +11,7 @@ permalink: /tech/
 	<div class="full column">
 		<p>Here at the SSBLA we take our racing seriously. We. Go. Fast.</p>
 		<p>We've been continually refining our event technology since the 2010 Inaugural Mario Cup. What began with a stop watch has developed into an electronic timing system complete with drag-racing inspired start lights.</p>
-		<p>We encourage all racers to follow our development progress <a href="https://github.com/dotMR/LugeRacerTimer/issues">here</a>
+		<p>We encourage all racers to follow our development progress <a href="https://github.com/dotMR/LugeRacerTimer/issues">here</a>.
 		</p>
 	</div>
 </div>
