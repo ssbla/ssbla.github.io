@@ -2,7 +2,7 @@
 layout: results
 categories: race_results blog
 author: Mario Russo
-title: DRAFT 2013 Mario Cup Results
+title: DRAFT 2013 Mario Cup Results TEST
 img-path: 
 
 series: Winter Series
