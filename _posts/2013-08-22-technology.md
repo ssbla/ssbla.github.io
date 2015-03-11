@@ -5,6 +5,7 @@ author: Mario Russo
 title: Technology
 img-path: /assets/images/xmas-tree-track.jpg
 permalink: /tech/
+active_nav: Tech
 ---
 
 <div class="row">
